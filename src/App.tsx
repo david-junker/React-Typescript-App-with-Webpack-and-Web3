@@ -1,7 +1,7 @@
 import React from 'react';
-import FirstPage from './firstPage/FirstPage';
-import SecondPage from './secondPage/SecondPage';
-import NotFoundPage from './notFoundPage/NotFoundPage';
+import FirstPage from './pages/firstPage/FirstPage';
+import SecondPage from './pages/secondPage/SecondPage';
+import NotFoundPage from './pages/notFoundPage/NotFoundPage';
 import { Route, Switch } from 'react-router-dom';
 
 const App: React.FC = () => {
