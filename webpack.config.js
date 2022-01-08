@@ -28,6 +28,14 @@ const config = {
       {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
+      },
+      {
+        test: /\.(svg|png|jpe?g)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+          },
+        ],
       }
     ],
   },
